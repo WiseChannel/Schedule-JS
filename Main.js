@@ -1,3 +1,5 @@
+// главный
+
 
 var lastSelectedDiv = "null";
 var lastSelectedDivColor = "rgba (123, 123, 50, 0.465)";

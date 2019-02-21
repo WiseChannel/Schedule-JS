@@ -1,3 +1,5 @@
+// таблица пар
+
 
 var mobileScale = 0.7;
 

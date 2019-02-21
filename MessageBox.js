@@ -1,4 +1,4 @@
-
+// окно сообщения
 
 var messageBoxWidth = 600;
 var messageBoxHeight = 200;

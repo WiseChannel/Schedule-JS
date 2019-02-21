@@ -1,3 +1,5 @@
+// подписаться на календарь Google
+
 
 var subscribeGoogleCalendarMenuWidth = 850;
 var subscribeGoogleCalendarMenuHeight = 300;

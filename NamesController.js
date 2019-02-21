@@ -1,3 +1,5 @@
+// контроллер имен
+
 
 var lectorsListRaw = [];
 var groupsListRaw = [];

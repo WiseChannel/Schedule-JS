@@ -1,3 +1,5 @@
+// до загрузки
+
 
 function DeleteObject (_this) {
 	
@@ -15,7 +17,6 @@ function DeleteObject (_this) {
 }
 
 function DeleteObjectByiId (_this) {
-	
 	return DeleteObject (document.getElementById (_this));
 }
 

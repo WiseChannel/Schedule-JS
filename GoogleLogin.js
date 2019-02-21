@@ -1,3 +1,5 @@
+// гугл логин
+
 
 var authURL = "www.google.com"; 
 var loginpass = "";

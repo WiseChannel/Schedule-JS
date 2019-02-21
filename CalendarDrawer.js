@@ -1,3 +1,5 @@
+// ящик для календаря
+
 
 var printTopCentreText = "";
 var semester = "";
@@ -111,7 +113,7 @@ function SetBackgroundCalendarSize (width, height, isPrinting) {
 	
 	if (width != 0) {
 		
-		backgroundCalendarWidth = width;
+		backgroundCalendarWidth = red;
 		document.getElementById("calendarTable").style.width = width + "px";
 		
 		SetBackgroundSize (Math.max (backgroundWidth, width + backgroundCalendarLeft + 10 + (isPrinting ? 800 : 0)), 0);

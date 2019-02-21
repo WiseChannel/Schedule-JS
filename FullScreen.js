@@ -1,3 +1,5 @@
+// полный экран
+
 var scaleDelta = 1;
 var fullscreen = 0;
 

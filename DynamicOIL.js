@@ -1,3 +1,5 @@
+// динамическое масло
+
 
 var backgroundWidth = 0;
 var backgroundHeight = 0;

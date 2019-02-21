@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+@font-face {
+	
+    font-family: TextFont;
+    src: url(SEGOESC.TTF);
+}
+
+.main {
+	
+	position:relative;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	overflow: hidden; 
+	}
+	
+.backTop {
+	
+	position:relative;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	display:none;
+	}
+	
+.backBottom {
+	
+	position:relative;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	display:none;
+}
+
+table {
+	
+    border-collapse: collapse;
+}
+
+div::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+div::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+div::-webkit-scrollbar-thumb
+{
+	background-color: rgba(0, 0, 0, 0.27);
+}
+	
+
+#GameElement {
+	
+	background-color: transparent;
+	cursor: default;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#BackElement {
+	
+	background-color: transparent;
+	cursor: default;
+	pointer-events: none;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#TextElementBordered {
+	
+	text-align: center;
+	cursor: default;
+	font-size: 17px;
+	border: 1px solid;
+}
+
+#TextElement {
+	
+	text-align: center;
+	cursor: default;
+	font-size: 17px;
+}
+
+#TextElementRight {
+	
+	text-align: right;
+	cursor: default;
+	font-size: 17px;
+}
+
+#TextElementRed {
+	
+	background-color: transparent;
+	text-align: center;
+	cursor: default;
+	font-family : TextFont;
+	font-size: 21px;
+	color: #FF1111;
+}
+
+#TextElementSilver {
+	
+	background-color: transparent;
+	text-align: center;
+	cursor: default;
+	font-family : TextFont;
+	font-size: 21px;
+	color: #A0A0A0;
+}
+
+#TextElementRounded {
+	
+	text-align: center;
+	cursor: default;
+	font-size: 21px;
+	color: #FFFFFF;
+    background: #7E8A8B;
+    border-radius: 5px;
+    line-height: 1.3em;
+}
